@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(river.jpg);
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 610px;
+    height: 460px;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 6px 6px 8px 3px #eaeaea;
+    border: 4px solid #fafafa;
+    border-radius: 25px 0px 25px 0px;
+}
+
+.head{
+    background-color: rgba(114, 109, 109, 0.2);
+    color: rgb(26, 11, 81);
+    font-weight: bold;
+    font-size : 18px;
+    padding: 5px;
+    font-family: sans-serif;
+}
+.monday{
+    background-color: rgba(189, 69, 69,0.3);
+    font-size : 17px;
+    padding: 5px 17px;
+}
+.tuesday{
+    background-color: rgba(29, 12, 141, 0.3);
+    font-size : 17px;
+    padding: 5px 17px;
+}
+.wednesday{
+    background-color: rgba(214, 19, 214, 0.3);
+    font-size : 17px;
+    padding: 5px 17px;
+}
+.thursday{
+    background-color: rgba(215, 168, 13, 0.3);
+    font-size : 17px;
+    padding: 5px 17px;
+}
+.friday{
+    background-color: rgba(13, 135, 44, 0.3);
+    font-size : 17px;
+    padding: 5px 17px;
+}
